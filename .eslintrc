@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "quotes": ["error", "single", {"allowTemplateLiterals": true}],
+    "comma-dangle": ["error", "always-multiline"],
+    "dot-notation": "error",
+    "indent": ["error", 2],
+    "no-undef": "error",
+    "no-unused-vars": ["error", {"varsIgnorePattern": "ignore", "argsIgnorePattern": "ignore"}]
+  }
+}

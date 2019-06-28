@@ -1,0 +1,34 @@
+{
+  "name": "@altipla/vue-webcomponent",
+  "version": "0.1.0",
+  "description": "Deploy a web component from a Vue component with minimal modifications.",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altipla-consulting/vue-webcomponent.git"
+  },
+  "keywords": [
+    "vue",
+    "web-components"
+  ],
+  "author": "Altipla Consulting",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/altipla-consulting/vue-webcomponent/issues"
+  },
+  "homepage": "https://github.com/altipla-consulting/vue-webcomponent#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
