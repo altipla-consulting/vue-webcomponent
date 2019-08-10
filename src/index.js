@@ -152,7 +152,7 @@ export default {
 
           // Custom lifecycle hook.
           if (oldMounted) {
-            oldMounted();
+            oldMounted.call(this._vueInstance);
           }
 
           // For later deleting it.
