@@ -1,6 +1,6 @@
 {
   "name": "@altipla/vue-webcomponent",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Deploy a web component from a Vue component with minimal modifications.",
   "main": "src/index.js",
   "scripts": {
